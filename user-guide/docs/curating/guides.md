@@ -4,7 +4,7 @@ Below are step-by-step guides on how to create projects in the Data Depot, and c
 * <a href="#best-practices/">Best Practices</a></li>
 * <a href="#curation-publication-faq">Curation &amp; Publication FAQs</a>.</li>
 
-### [Experimental](#experimental)
+### Experimental
 
 #### 1. Add a Project { #experimental-step1 }
 
@@ -421,7 +421,7 @@ Finally, click <strong>Request DOI &amp; Publish</strong> and agree to the agree
 
 ---
 
-### [Other](#other)
+### Other
 
 #### 1. Add a Project { #other-step1 }
 
