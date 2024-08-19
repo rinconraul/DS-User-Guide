@@ -71,13 +71,13 @@ DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customi
 1. Navigate into your clone of this repository.
 2. Start the Docker container to serve the docs. 
 
-   Linux or Mac (macOS) user:
+   Using `Make`:
    ```shell
     make build
     make start
 
     ```
-   Windows user:
+   Or:
    ```shell
     docker compose build
     docker compose up
