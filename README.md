@@ -33,7 +33,7 @@ DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customi
 ### A. Via Python
 
 > [!IMPORTANT]
-> This method has different theme than [production website](https://designsafe-ci.org/user-guide/) ([#42](https://github.com/DesignSafe-CI/DS-User-Guide/issues/42)) **and** bugs ([#66](https://github.com/DesignSafe-CI/DS-User-Guide/issues/66)).
+> This method has different theme than [live website](https://designsafe-ci.org/user-guide/) ([#42](https://github.com/DesignSafe-CI/DS-User-Guide/issues/42)) **and** bugs ([#66](https://github.com/DesignSafe-CI/DS-User-Guide/issues/66)).
 
 0. Have Python installed.\
     <sup>Known supported versions are [from 3.10 to 3.12](https://github.com/DesignSafe-CI/DS-User-Guide/blob/tacc/tacc-docs/pyproject.toml#L9).</sup>
