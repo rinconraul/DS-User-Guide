@@ -33,7 +33,7 @@ DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customi
 ### A. Via Python
 
 > [!IMPORTANT]
-> This solution uses a different theme than [production website](https://designsafe-ci.org/user-guide/) ([#42](https://github.com/DesignSafe-CI/DS-User-Guide/issues/42)) and has bugs ([#66](https://github.com/DesignSafe-CI/DS-User-Guide/issues/66)).
+> This method has different theme than [production website](https://designsafe-ci.org/user-guide/) ([#42](https://github.com/DesignSafe-CI/DS-User-Guide/issues/42)) **and** bugs ([#66](https://github.com/DesignSafe-CI/DS-User-Guide/issues/66)).
 
 0. Have Python installed.\
     <sup>Known supported versions are [from 3.10 to 3.12](https://github.com/DesignSafe-CI/DS-User-Guide/blob/tacc/tacc-docs/pyproject.toml#L9).</sup>
@@ -64,7 +64,7 @@ DesignSafe [MkDocs](https://mkdocs.readthedocs.io/) documentation with **customi
 ### B. Via Docker
 
 > [!WARNING]
-> This solution does not work on macOS with an M1 nor M2 chip ([details](https://github.com/DesignSafe-CI/DS-User-Guide/issues/51)).
+> This method does **not** work on macOS with an M1 nor M2 chip ([details](https://github.com/DesignSafe-CI/DS-User-Guide/issues/51)).
 
 0. Have Docker installed.\
     <sup>We recommend doing so via [Docker-Desktop](https://www.docker.com/products/docker-desktop).</sup>
