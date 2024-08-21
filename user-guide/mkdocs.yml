@@ -42,6 +42,7 @@ nav:
       - Data Management Plan: managingdata/datamanagementplan.md
       - Experimental Facility Checklist: managingdata/experimentalfacilitychecklist.md
     - Data Depot Repository:
+      - About: datadepotrepo/about.md
       - Office Hours: https://www.designsafe-ci.org/facilities/virtual-office-hours/
       - Curating &amp; Publication:
         - Guides: curating/guides.md
