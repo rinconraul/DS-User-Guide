@@ -185,5 +185,49 @@ After a minute or so a preview deployment of your use case will be available on 
 
 </details>
 
+### <a id="add-to-guide"></a> 12. Add Use Case New to User Guide
+
+If you have added a Use Case, include it into one of the existing use case category documents —
+
+| Category | Document |
+| - | - |
+| API | [`apiusecases.md`](./apiusecases.md) |
+| Data Analytics | [`dataanalyticsusecases.md`](./dataanalyticsusecases.md) |
+| Geohazard | [`geohazardusecases.md`](./geohazardusecases.md) |
+| Seismic | [`seismicusecases.md`](./seismicusecases.md) |
+| Wind and Storm Surge | [`windstormsurgeusecases.md`](./windstormsurgeusecases.md) |
+
+— so that it will show up on this User Guide.
+
+#### Example
+
+To add to [`dataanalyticsusecases.md` (Data Analytics)](./dataanalyticsusecases.md):
+
+1. Find bottommost `{% include-markdown '…' %}` e.g.
+
+    ```md
+
+    ---
+
+    <!-- ## Visualization of spatially distributed data -->
+
+    {% include-markdown 'padgett/usecase_JN_viz.md' %}
+    ```
+
+    <sup>Bottommost include may be different since last update.</sup>
+
+2. Add an include to your document in the same way:
+
+    ```md
+
+    ---
+
+    <!-- ## Description of yur use case -->
+
+    {% include-markdown 'your-usecase/usecase.md' %}
+    ```
+
+    <sup>Edit this include to point to your use case.</sup>
+
 [DS-User-Guide]: https://github.com/DesignSafe-CI/DS-User-Guide/
 [DS_Use_Case_template]: https://github.com/DesignSafe-CI/DS_Use_Case_template/
