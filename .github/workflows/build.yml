@@ -1,4 +1,4 @@
-name: Continuous Integration (Manual)
+name: DS User Guide Builds
 
 on:
   workflow_dispatch:
