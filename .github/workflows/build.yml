@@ -1,4 +1,4 @@
-name: DesignSafe User Guide Build
+name: Continuous Integration (Manual)
 
 on:
   workflow_dispatch:
